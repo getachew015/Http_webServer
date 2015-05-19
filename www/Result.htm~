@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Posting Information </title> 
+</head>
+
+<body>
+<h4> Please Enter Your Information Below </h4>
+
+<form action ="Result.htm" method="POST"> 
+First Name <input type="text" name="fname"/><br><br>
+Last Name <input type="text" name="lname"/><br><br>
+Monthly Income <input type="text" name="salary"/><br><br>
+<input type="submit" value="Submit"/>
+
+</form>
+</body>
+</html>

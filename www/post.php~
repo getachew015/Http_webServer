@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Posting Information </title> 
+</head>
+<body>
+<h4> Here is your Information processed </h4>
+<?php
+	$_POST['fname'];
+	$_POST['lname'];
+	$name= $_POST['fname'].$_POST['lname'];
+	$sal=$_POST['salary'];
+	echo "Hello $name </br> Your Yearly Income from salary is $sal";	
+
+?>
+</body>
+</html>
+

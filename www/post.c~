@@ -1,0 +1,10 @@
+void main (int argc, char *argv[] ){//accept the post results
+
+int i;
+
+for (i=0;i<argc;i++){
+printf("%s",argv[i]);
+}
+
+}
+
